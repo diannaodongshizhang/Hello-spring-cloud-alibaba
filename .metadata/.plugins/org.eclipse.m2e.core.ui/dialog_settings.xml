@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.yrx"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="hello-spring-cloud-alibaba-consumer"/>
+			<item value="hello-spring-cloud-alibaba"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+			<item value="hello-spring-cloud-alibaba-consumer"/>
+			<item value="hello-spring-cloud-alibaba-provider"/>
+			<item value="hello-srping-cloud-dependencies"/>
+			<item value="hello-spring-cloud-alibaba-dependencies"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="org.hello.spring.cloud.alibaba.consumer"/>
+			<item value="org.hello.spring.cloud.alibaba.provider"/>
+			<item value="org.hello.srping.cloud.dependencies"/>
+			<item value="org.hello.spring.cloud.alibaba.dependencies"/>
+			<item value="com.yrx.hello_spring_cloud_alibaba"/>
+			<item value="Hello_spring_cloud_alibaba.com.yex"/>
+		</list>
+		<list key="groupId">
+			<item value="com.yrx.spring.cloud.alibaba.consumer"/>
+			<item value="com.yrx.spring.cloud.alibaba.provider"/>
+			<item value="com.cnbai"/>
+			<item value="com.yrx"/>
+			<item value="Hello-spring-cloud-alibaba"/>
+		</list>
+		<list key="artifactId">
+			<item value="hello-spring-cloud-alibaba-consumer"/>
+			<item value="hello-spring-cloud-alibaba-provider"/>
+			<item value="hello-srping-cloud-dependencies"/>
+			<item value="hello-spring-cloud-alibaba-dependencies"/>
+			<item value="hello-spring-cloud-alibaba"/>
+			<item value="com.yex"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

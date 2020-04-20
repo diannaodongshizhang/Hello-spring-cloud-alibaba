@@ -1,0 +1,5 @@
+package com.hello.spring.cloud.alibaba.provider.controller;
+
+public class EchoController {
+
+}

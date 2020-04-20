@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="Hello-spring-cloud-alibaba"/>
+<aop-project name="hello-spring-cloud-alibaba-consumer"/>
+<aop-project name="hello-spring-cloud-alibaba-provider"/>
+</aop-reference-model>

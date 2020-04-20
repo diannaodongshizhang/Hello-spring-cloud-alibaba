@@ -1,0 +1,11 @@
+package org.hello.spring.cloud.alibaba.consumer.controller;
+
+import org.hello.spring.cloud.alibaba.consumer.service.EchoService;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class TestEchoController {
+	
+	@Autowired
+	private EchoService echoService;
+}

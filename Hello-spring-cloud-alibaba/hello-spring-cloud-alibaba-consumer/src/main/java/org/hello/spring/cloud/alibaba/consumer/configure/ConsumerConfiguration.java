@@ -1,0 +1,17 @@
+package org.hello.spring.cloud.alibaba.consumer.configure;
+
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.client.RestTemplate;
+
+@Configuration
+public class ConsumerConfiguration {
+	//Java 配置类，主要作用是为了注入 RestTemplate
+	@Bean
+	// 负载均衡
+    @LoadBalanced
+	public RestTemplate restTemplate(){
+		return new RestTemplate();
+	}
+}

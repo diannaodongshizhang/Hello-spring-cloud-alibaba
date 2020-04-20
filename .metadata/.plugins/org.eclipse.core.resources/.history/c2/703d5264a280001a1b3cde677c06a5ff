@@ -1,0 +1,10 @@
+@SpringBootApplication
+// 开启服务注册发现功能
+@EnableDiscoveryClient
+// 开启 Feign 功能
+@EnableFeignClients
+public class ConsumerApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(ConsumerApplication.class, args);
+    }
+}

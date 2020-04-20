@@ -1,0 +1,19 @@
+@RestController
+public class TestController {
+
+    private final RestTemplate restTemplate;
+
+    @Autowired
+    public TestController(RestTemplate restTemplate) {
+        this.restTemplate = restTemplate;
+    }
+
+    /**
+     * 测试 http 请求
+     */
+    @GetMapping(value = "/echo/{str}")
+    public String echo(@PathVariable String str) {
+        // 使用服务名请求服务提供者
+        return restTemplate.getForObject("http://service-provider/echo/" + str, String.class);
+    }
+}
